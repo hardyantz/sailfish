@@ -7,7 +7,7 @@ Simple graphQL generator request body for client.
 
 ```go
     type Category Struct {
-	    Name string
+	    Name string `gql:"name"`
     }
     cat := new(Category)
     cat.Name = "meow"
