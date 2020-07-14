@@ -19,5 +19,5 @@ Simple graphQL generator request body for client.
 
 and the output : 
 ```graphql
-    mutation createCategory(name:"meow") {success response}
+    mutation createCategory(name:"meow") {success message}
 ```
