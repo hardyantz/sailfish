@@ -13,8 +13,8 @@ Simple graphQL generator request body for client.
     cat.Name = "meow"
     r := []string{"success", "message"}
     query := sailfish.NewQuery("mutation", "createCategory")
-	s := query.Parse(cat, r)
-	fmt.Println(s)
+    s := query.Parse(cat, r)
+    fmt.Println(s)
 ``` 
 
 and the output : 
